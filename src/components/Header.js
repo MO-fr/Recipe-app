@@ -27,24 +27,15 @@ const Header = () => {
           <ul className="navbar-nav me-auto mb-2 mb-md-0">
             <li className="nav-item">
               <a className="nav-link active border-bottom border-danger" href="#">
-                Dashboard
+                Home
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-secondary hover-white" href="#">
-                Products
+                Create Your Own Recipe
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link text-secondary hover-white" href="#">
-                Team
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-secondary hover-white" href="#">
-                Projects
-              </a>
-            </li>
+            
           </ul>
 
           {/* Secondary Navigation */}

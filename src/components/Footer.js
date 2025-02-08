@@ -36,19 +36,8 @@ const Footer = () => {
 
           {/* Services */}
           <div className="col-lg-2 col-md-6">
-            <h5 className="text-white mb-3">Services</h5>
             <ul className="list-unstyled">
               <li className="mb-2">
-                <a href="#" className="text-secondary text-decoration-none hover-white">Web Design</a>
-              </li>
-              <li className="mb-2">
-                <a href="#" className="text-secondary text-decoration-none hover-white">Development</a>
-              </li>
-              <li className="mb-2">
-                <a href="#" className="text-secondary text-decoration-none hover-white">Marketing</a>
-              </li>
-              <li className="mb-2">
-                <a href="#" className="text-secondary text-decoration-none hover-white">Consulting</a>
               </li>
             </ul>
           </div>
@@ -58,7 +47,7 @@ const Footer = () => {
             <h5 className="text-white mb-3">Contact Us</h5>
             <div className="mb-2 d-flex align-items-center">
               <MapPin size={20} className="text-danger me-2" />
-              <span>123 Business Street, New York, NY</span>
+              <span>801 Market St, Philadelphia PA</span>
             </div>
             <div className="mb-2 d-flex align-items-center">
               <Phone size={20} className="text-danger me-2" />
@@ -66,7 +55,7 @@ const Footer = () => {
             </div>
             <div className="mb-2 d-flex align-items-center">
               <Mail size={20} className="text-danger me-2" />
-              <span>contact@example.com</span>
+              <span>msoua0040@launchpadphilly.org</span>
             </div>
           </div>
         </div>
